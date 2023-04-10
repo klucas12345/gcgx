@@ -3,4 +3,4 @@
 # Error if any command fails
 set -e
 echo Downloading docs...
-wget -q -r -A.html https://langchain.readthedocs.io/en/latest/
+wget -q -r -A.html http://www.thephonicspage.org/On%20Reading/Resources/NonsenseWordsByType.pdf

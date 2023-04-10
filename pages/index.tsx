@@ -116,29 +116,29 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LangChain Chat</title>
+        <title>GodChat</title>
         <meta name="description" content="LangChain documentation chatbot" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topnav}>
         <div className = {styles.navlogo}>
-          <Link href="/">LangChain</Link>
+          <Link href="/">GodChatGPT</Link>
         </div>
         <div className = {styles.navlinks}>
           <a
-            href="https://langchain.readthedocs.io/en/latest/"
+            href="http://instagram.com/tomwolfpennsylvania"
             target="_blank"
             rel="noreferrer"
           >
-            Docs
+            Instagram
           </a>
           <a
-            href="https://github.com/zahidkhawaja/langchain-chat-nextjs"
+            href="http://twitter.com/jwhallshopewell"
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Twitter
           </a>
         </div>
       </div>
@@ -150,7 +150,7 @@ export default function Home() {
               let className;
 
               if (message.type === "apiMessage") {
-                icon = <Image src="/parroticon.png" alt="AI" width="30" height="30" className={styles.boticon} priority />;
+                icon = <Image src="/gc.jpg" alt="AI" width="30" height="30" className={styles.boticon} priority />;
                 className = styles.apimessage;
               } else {
                 icon = <Image src="/usericon.png" alt="Me" width="30" height="30" className={styles.usericon} priority />
@@ -207,9 +207,9 @@ export default function Home() {
             </form>
           </div>
           <div className = {styles.footer}>
-            <p>Powered by <a href="https://github.com/hwchase17/langchain" target="_blank" rel="noreferrer">
-                LangChain
-              </a>. Built by <a href="https://twitter.com/chillzaza_" target="_blank" rel="noreferrer">Zahid</a> and <a href="https://twitter.com/_seanyneutron" target="_blank" rel="noreferrer">Sean</a>.</p>
+            <p>Powered by <a href="" target="_blank" rel="noreferrer">
+                GodChat
+              </a>. Built by <a href="" target="_blank" rel="noreferrer">Antoid</a> and <a href="" target="_blank" rel="noreferrer">Doid</a>.</p>
           </div>
         </div>
       </main>
